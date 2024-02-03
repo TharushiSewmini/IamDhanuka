@@ -1,0 +1,72 @@
+/* NavBar.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.nav-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-between;
+  width: 100vw;
+  /* Add a background color for better visibility */
+}
+
+.nav-bar {
+  display: flex;
+  flex: 1; /* Let the nav-bar take all the available space */
+  justify-content: center;
+}
+
+.buttons {
+  position: absolute;
+  right: 0;
+  height: 10vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  padding-right: 10px; /* Adjust the padding as needed */
+}
+
+.nav-bar a {
+  text-decoration: none;
+  padding: 10px;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.nav-bar a:link {
+  cursor: pointer;
+}
+.nav-bar a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.btn {
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  color: "#1F1F1F";
+  font-size: 16px;
+  word-wrap: normal;
+  font-weight: "400";
+  margin-right: 5px;
+  white-space: nowrap;
+}
