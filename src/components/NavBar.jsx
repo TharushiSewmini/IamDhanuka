@@ -7,19 +7,19 @@ const NavBar = () => {
     <div className="nav-container">
       <nav className="nav-bar">
         <Link to="/" className="tags">
-          Home
+          Home |
         </Link>
         <Link to="/about" className="tags">
-          About
+          About |
         </Link>
         <Link to="/experience" className="tags">
-          Experience
+          Experience |
         </Link>
         <Link to="/project" className="tags">
-          Project
+          Project |
         </Link>
         <Link to="/contact" className="tags">
-          Contact
+          Contact |
         </Link>
       </nav>
       <div className="buttons">
