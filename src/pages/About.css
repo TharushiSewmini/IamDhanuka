@@ -1,26 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
 }
 body {
   height: 90vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  background-color: rgba(241, 238, 238, 0.5);
+  flex-direction: row;
 }
-.title {
+.title-about {
   display: flex;
- 
   align-items: center;
   justify-content: center;
   font-size: 36px;
   font-weight: bold;
   color: black;
 }
-.container {
+.container-about {
+  margin: 40px;
   height: 90vh;
   width: 100%;
   display: flex;
@@ -29,41 +26,33 @@ body {
 .content-container {
   display: flex;
   flex-direction: row;
-  margin: 20px 40px;
 }
-.content {
+.content-about {
   display: flex;
-  flex: 2;
-  overflow: hidden;
-  margin-right: 60px;
+  flex: 1;
+  flex-direction: column;
+
   align-items: center;
   justify-content: center;
 }
 
-.img-container {
+.img-container-about {
   display: flex;
   flex: 1;
- 
-  align-items: center;
-  justify-content: end;
-  
   cursor: pointer;
- 
-}
-
-img{
-  width: 400px;
-  height: 400px;
+  align-items: center;
+  justify-content: center;
   margin-right: 50px;
-    object-fit: fill;
-  clip-path: circle();
 }
 
-.first{
-    color: rgb(24, 24, 92) !important;
-    font-weight: bolder;
-    font-style: oblique;
-    font-size: larger;
-    font-size: 25px;
-    margin-bottom: 40px;
+img {
+}
+
+.first {
+  color: rgb(24, 24, 92) !important;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: larger;
+  font-size: 25px;
+  margin-bottom: 40px;
 }

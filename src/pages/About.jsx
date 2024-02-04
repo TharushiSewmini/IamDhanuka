@@ -4,13 +4,11 @@ import "./About.css";
 import { motion, px } from "framer-motion";
 const About = () => {
   return (
-    <div className="container">
-      <div className="title"> ABOUT</div>
+    <div className="container-about">
+      <div className="title-about"> ABOUT</div>
       <div className="content-container">
-        <div className="content">
-          <div className="first" style={{
-           
-          }}>
+        <div className="content-about">
+          <div className="first" style={{}}>
             Hello, I'm Dhanuka Ranasinghe, and I'm thrilled to welcome you to my
             corner of the web...
           </div>
@@ -45,8 +43,9 @@ const About = () => {
           </div>
           <br />
         </div>
-        <div className="img-container">
+        <div className="img-container-about">
           <motion.img
+            style={{ height: 400, width: 500 }}
             src={img}
             alt="dhanuka"
             whileHover={{
