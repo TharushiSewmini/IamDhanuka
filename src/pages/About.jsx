@@ -45,7 +45,7 @@ const About = () => {
         </div>
         <div className="img-container-about">
           <motion.img
-            style={{ height: 400, width: 500 }}
+           className="img-about"
             src={img}
             alt="dhanuka"
             whileHover={{

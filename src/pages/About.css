@@ -42,10 +42,14 @@ body {
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  margin-right: 50px;
+
 }
 
-img {
+.img-about {
+  height: 60vh;
+  width: 50%;
+  object-fit: fill;
+  border: 1px solid grey;
 }
 
 .first {

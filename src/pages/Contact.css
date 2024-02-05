@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 80%;
+  margin: auto;
+  border: 6px outset rgb(226, 224, 224);
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+}
+.left-container {
+  display: flex;
+  width: 80%;
+  height: 70vh;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-forum {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+
+  /* padding: 60px; */
+}
+
+.input-contact {
+  height: 7vh;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid hotpink;
+}
+
+.contact-titile {
+  font-size: larger;
+  margin-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.input-contact::placeholder {
+  padding-left: 10px;
+
+}
+.input-contact:focus {
+  outline: none;
+}
+.input-contact:focus-within {
+  border: 1px solid rgb(147, 147, 147);
+}
+
+.add-tic {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.contact-checkbox {
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.contact-alignment {
+  align-items: center;
+  justify-content: center;
+}
+.contact-check {
+  vertical-align: baseline;
+  margin-bottom: 20px;
+}
+
+.check-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sub-check {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.btn-contact {
+  background-color: crimson;
+  height: 60px;
+  width: 200px;
+  color: #fff;
+}
+.btn-contact:focus {
+  outline: none;
+}
+.btn-contact:focus-within {
+  border: 1px solid snow;
+}

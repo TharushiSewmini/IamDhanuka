@@ -7,29 +7,62 @@ import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import "./App.css";
 import About from "./pages/About";
+import { Element } from "react-scroll";
+
+
 function App() {
   return (
     <div className="app">
       <Router>
         <div>
           <NavBar />
-        <div className="routing-container">
+          <div className="routing-container">
             <Routes>
-            <Route path="/" exact Component={Home}></Route>
-            <Route path="/about" Component={About}></Route>
-            <Route path="/experience" Component={Experience}></Route>
-            <Route path="/project" Component={Project}></Route>
-            <Route path="/contact" Component={Contact}></Route>
-          </Routes>
-        </div>
+              <Route
+                path="/"
+                element={
+                  <Element name="home">
+                    <Home />
+                  </Element>
+                }
+              />
+              <Route
+                path="/about"
+                element={
+                  <Element name="about">
+                    <About />
+                  </Element>
+                }
+              />
+              <Route
+                path="/experience"
+                element={
+                  <Element name="experience">
+                    <Experience />
+                  </Element>
+                }
+              />
+              <Route
+                path="/project"
+                element={
+                  <Element name="project">
+                    <Project />
+                  </Element>
+                }
+              />
+              <Route
+                path="/contact"
+                element={
+                  <Element name="contact">
+                    <Contact />
+                  </Element>
+                }
+              />
+            </Routes>
+          </div>
         </div>
       </Router>
     </div>
-    // <div className="content">
-    //  <div className="a">Hey I am Dhanuka Ranasinghe</div>
-    //  <div className="b">My Portofilo website coming zoon...</div>
-    //  <div className="c">stay tune guys</div>
-    // </div>
   );
 }
 

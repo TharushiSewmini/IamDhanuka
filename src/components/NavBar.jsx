@@ -6,20 +6,20 @@ const NavBar = () => {
   return (
     <div className="nav-container">
       <nav className="nav-bar">
-        <Link to="/" className="tags">
+        <Link to="/" className="tags" smooth={true} duration={500}>
           Home |
         </Link>
-        <Link to="/about" className="tags">
+        <Link to="/about" className="tags" smooth={true} duration={500}>
           About |
         </Link>
-        <Link to="/experience" className="tags">
+        <Link to="/experience" className="tags" smooth={true} duration={500}>
           Experience |
         </Link>
-        <Link to="/project" className="tags">
+        <Link to="/project" className="tags" smooth={true} duration={500}>
           Project |
         </Link>
-        <Link to="/contact" className="tags">
-          Contact |
+        <Link to="/contact" className="tags" smooth={true} duration={500}>
+          Contact 
         </Link>
       </nav>
       <div className="buttons">

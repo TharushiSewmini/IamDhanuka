@@ -28,3 +28,9 @@
     height: 90vh;
     width: 100vw;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Add any additional styling as needed */
+  
