@@ -1,36 +1,40 @@
 .app {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
- background-color: rgb(252, 246, 234);
-  }
-  .content{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .a{
-    font-size: 48px;
-  }
-  .b{
-    font-size: 24px;
-  }
-  .c{
-    font-size: 24px;
-  
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: white;
+}
+
+body::-webkit-scrollbar {
+  overflow-y: auto;
+  background-color: white;
+}
+
+/* Add any additional styling as needed */
+
+@media (max-width: 40vw) {
+  .app {
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 2fr; /* Change 2 to 1 to have a single column in the grid */
   }
 
-  .routing-container{
-    height: 90vh;
-    width: 100vw;
+  .nav-bar-app {
+    order: 2; /* Move the navigation bar below the content in the grid */
   }
-  html {
-    scroll-behavior: smooth;
+
+  .routing-container {
+    order: 1; /* Move the content above the navigation bar in the grid */
   }
-  
-  /* Add any additional styling as needed */
-  
+}

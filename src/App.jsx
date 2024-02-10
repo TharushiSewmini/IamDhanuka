@@ -15,7 +15,9 @@ function App() {
     <div className="app">
       <Router>
         <div>
-          <NavBar />
+        <div className="nav-bar-app">
+        <NavBar/>
+        </div>
           <div className="routing-container">
             <Routes>
               <Route

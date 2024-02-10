@@ -4,22 +4,14 @@
 *{
   font-family: 'Inconsolata' , sans-serif;
 }
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 90vh;
-  overflow: hidden;
-  font-family: 'Inconsolata' , sans-serif;
-}
+
 .container {
   display: flex;
   flex-direction: row;
-  height: 90vh;
+  
 }
 .image-container {
   flex: 1;
-  height: 90vh;
 
   display: flex;
 justify-content: center;

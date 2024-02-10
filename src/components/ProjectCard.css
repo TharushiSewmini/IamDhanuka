@@ -1,0 +1,75 @@
+
+
+.project-card-container {
+ width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  row-gap: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  box-shadow: 10px 10px 10px rgb(217, 217, 217);
+}
+.habour-project-img {
+  width: 400px;
+  height: 100%;
+  align-items: start;
+  justify-content: start;
+ 
+  display: flex;
+  object-fit: cover;
+  padding: 0px !important;
+}
+.habour-project-img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.project-card-topper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 !important;
+}
+.project-card-lower {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.project-topic {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  font-weight: bolder;
+  margin: 0px 14px 6px 14px;
+}
+.project-subtopic {
+  margin: 0px 14px 6px 14px;
+}
+.project-card-button {
+  display: flex;
+  flex-direction: column;
+}
+.project-btn {
+  background-color: aliceblue;
+
+  width: 140px;
+  margin: 50px 14px 6px 14px;
+  transition: width 2s;
+}
+.project-btn:focus-within {
+  border: none;
+  outline: none;
+}
+.project-btn:hover {
+  background-color: rgb(76, 143, 202);
+  color: white;
+  width: 160px;
+  border: none;
+  outline: none;
+  transition-duration: 2s;
+  transition-delay: 100ms;
+}
