@@ -44,18 +44,11 @@ const About = () => {
           <br />
         </div>
         <div className="img-container-about">
-          <motion.img
+          <img
            className="img-about"
             src={img}
             alt="dhanuka"
-            whileHover={{
-              scale: 1.1,
-              rotateX: 10,
-              rotateY: 10,
-              translatZ: -5,
-              boxShadow: "0 0 30px rgba(0 , 0 , 0 , 0.4)",
-            }}
-            transition={{ duration: 0.5, ease: "easeIn" }}
+           
           />
         </div>
       </div>

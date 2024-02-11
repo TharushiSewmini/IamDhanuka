@@ -38,12 +38,16 @@
 
 .img-about {
   height: 60vh;
-
   min-width: 50%;
   object-fit: fill;
-  border: 1px solid grey;
+  border-radius: 20px;
+  transition: transform 2s ;
+  transition-timing-function :cubic-bezier(0.165, 0.84, 0.44, 1)
 }
+.img-about:hover{
+  transform: scale(1.5 , 1.5);
 
+}
 .first {
   color: rgb(24, 24, 92) !important;
   font-weight: bolder;
